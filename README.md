@@ -2,7 +2,7 @@
   <img src="images/yes_bank.jpg" alt="YES BANK" width="200px" height="200px">
 </p>
 <h1 align="center"> Stock Price Predictor</h1>
-<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://certificates.almabetter.com/en/verify/38429097216414"> AlmaBetter Certificate </a> </h5>
 
 <p align="center"> 
 <img src="images/stock_price.jpg" alt="" height="382px">
