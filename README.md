@@ -1,25 +1,47 @@
-# Linear-Regression
+<p align="center"> 
+  <img src="images/yes_bank.jpg" alt="YES BANK" width="250px" height="250px">
+</p>
+<h1 align="center"> Stock Price Predictor</h1>
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
-# Problem Statement:
-Yes Bank is an Indian bank headquartered in Mumbai, It offers wide range of differentiated products with respect to retail banking and asset management services. Since 2018, it has been in the news because of the fraud case involving Rana Kapoor, the founder. Owing to the fact, it was interested to see how that impacted the stock price of the company and whether time series models or any other predictive models can do justice to such situations.
+<p align="center"> 
+<img src="images/stock.mp4" alt="" height="382px">
+</p>
 
-# Project Overview:
 
-1. Exploratory Data Analysis 
+I have explored historical stock price data, applied statistical analysis and machine learning techniques to uncover patterns and correlations, enabling insights into price trends, volatility, and factors influencing stock performance. I also created Triple Exponential Smoothing model for price predictions.
 
-2. Feature Selection
+# Project Files:
+This project contains two directories, one model as follows:
+<ul>
+ <li><b> notebooks: </b> This Folder contains .ipynb for the project</li>
  
-3. ETS Decomposition 
+ <li><b> data: </b> This folder contains</li>
+ <t>a. data_YesBank_StockPrices.csv : The raw data.</t><br>
+ <t>b. intermediate.csv : The data processed to gain insights and performing EDA.</t><br>
+ <t>c. final_data.csv : The data used for modelling purposes.</t>
+ 
+<li><b> model: </b> The model is joblib file of triple exponential smoothing. </li>
+ </ul>
+ 
+<h2> :book: Triple Exponential Smoothing</h2>
+Exponential smoothing is a time series forecasting method for univariate data that can be extended to support data with a systematic trend or seasonal component.Exponential smoothing forecasting methods are similar in that a prediction is a weighted sum of past observations, but the model explicitly uses an exponentially decreasing weight for past observations.<br>
+<br>
+Triple Exponential Smoothing is an extension of Exponential Smoothing that explicitly adds support for trend and seasonality to the univariate time series.
 
-4. Anomalies Detection
+This method is sometimes called Holt-Winters Exponential Smoothing, named for two contributors to the method: Charles Holt and Peter Winters.
 
-5. Model Application and Evaluation
+It has 3 smoothing factors, alpha, beta and gamma that controls the influence on the level, trend and seasonal component respectively.
 
-6. Stationarity Check
+The trend, the seasonality may be modeled as either an additive or multiplicative process for a linear or exponential change in the trend as well as seasonality.
 
-7. SARIMA Model
+<b>Hyperparameters:</b>
 
-8. Final Forecast
-
-# Conclusion:
-Clearly, the stock prices of the bank was influenced by the news of its founder being involved in the scam. Thus, not able to correctly predict the patterns as per Machine Learning models. Statistical models work far better.
+<li>Alpha: Smoothing factor for the level.<br></li>
+<li>Beta: Smoothing factor for the trend.<br></li>
+<li>Gamma: Smoothing factor for the seasonality.<br></li>
+<li>Trend Type: Additive or multiplicative.<br></li>
+<li>Dampen Type: Additive or multiplicative.<br></li>
+<li>Phi: Damping coefficient.<br></li>
+<li>Seasonality Type: Additive or multiplicative.<br></li>
+<li>Period: Time steps in seasonal period.<br></li>
