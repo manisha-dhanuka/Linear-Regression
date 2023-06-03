@@ -1,18 +1,18 @@
 <p align="center"> 
-  <img src="images/yes_bank.jpg" alt="YES BANK" width="250px" height="250px">
+  <img src="images/yes_bank.jpg" alt="YES BANK" width="200px" height="200px">
 </p>
 <h1 align="center"> Stock Price Predictor</h1>
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
 <p align="center"> 
-<img src="images/stock.mp4" alt="" height="382px">
+<img src="images/stock_price.jpg" alt="" height="382px">
 </p>
 
 
 I have explored historical stock price data, applied statistical analysis and machine learning techniques to uncover patterns and correlations, enabling insights into price trends, volatility, and factors influencing stock performance. I also created Triple Exponential Smoothing model for price predictions.
 
-# Project Files:
-This project contains two directories, one model as follows:
+# :floppy_disk: Project Files:
+This project contains three directories, one model as follows:
 <ul>
  <li><b> notebooks: </b> This Folder contains .ipynb for the project</li>
  
@@ -20,7 +20,7 @@ This project contains two directories, one model as follows:
  <t>a. data_YesBank_StockPrices.csv : The raw data.</t><br>
  <t>b. intermediate.csv : The data processed to gain insights and performing EDA.</t><br>
  <t>c. final_data.csv : The data used for modelling purposes.</t>
- 
+  <li><b> reports: </b> This contains the powerpoint presentation related to the project. 
 <li><b> model: </b> The model is joblib file of triple exponential smoothing. </li>
  </ul>
  
